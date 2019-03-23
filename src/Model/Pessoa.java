@@ -17,8 +17,6 @@ public class Pessoa {
     private Date dtNascimento;
     
     //Construtores
-    public Pessoa(){
-    }
     public Pessoa(String nome, Date dtNascimento){
         this.nome = nome;
         this.dtNascimento = dtNascimento;
