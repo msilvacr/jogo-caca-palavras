@@ -15,11 +15,13 @@ public class Pessoa {
     //Atributos
     private String nome;
     private Date dtNascimento;
+    private String[] telefone;
     
     //Construtores
-    public Pessoa(String nome, Date dtNascimento){
+    public Pessoa(String nome, Date dtNascimento, String[] telefone){
         this.nome = nome;
         this.dtNascimento = dtNascimento;
+        this.telefone = telefone;
     }
     
     //Metodos get's e set's
@@ -35,5 +37,11 @@ public class Pessoa {
     }
     public void setDtNascimento(Date dtNascimento){
         this.dtNascimento = dtNascimento;
+    }
+    public String[] getTelefone(){
+        return telefone;
+    }
+    public void setTelefone(String[] telefone){
+        this.telefone = telefone;
     }
 }
